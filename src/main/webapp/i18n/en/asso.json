@@ -1,0 +1,23 @@
+{
+    "amas2App": {
+        "asso" : {
+            "home": {
+                "title": "Assos",
+                "createLabel": "Create a new Asso",
+                "createOrEditLabel": "Create or edit a Asso",
+                "search": "Search for Asso"
+            },
+            "created": "A new Asso is created with identifier {{ param }}",
+            "updated": "A Asso is updated with identifier {{ param }}",
+            "deleted": "A Asso is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Asso {{ id }}?"
+            },
+            "detail": {
+                "title": "Asso"
+            },
+            "name": "Name",
+            "member": "Member"
+        }
+    }
+}

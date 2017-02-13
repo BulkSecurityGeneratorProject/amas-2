@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns='http://www.ehcache.org/v3'
+         xsi:schemaLocation="http://www.ehcache.org/v3 http://www.ehcache.org/schema/ehcache-core-3.0.xsd">
+
+    <cache-template name="simple">
+        <expiry>
+            <ttl unit="seconds">3600</ttl>
+        </expiry>
+        <heap>100</heap>
+    </cache-template>
+
+    <cache alias="com.binana.amas.domain.User" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Authority" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.User.authorities" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.PersistentToken" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.User.persistentTokens" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Person" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Blog" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Region" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Country" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Location" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Department" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Department.employees" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Task" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Task.jobs" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Employee" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Employee.jobs" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Job" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Job.tasks" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.JobHistory" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Book" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Author" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Author.books" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Personn" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Asso" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Asso.have" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Member" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Asso.members" uses-template="simple"/>
+
+    <!-- jhipster-needle-ehcache-add-entry -->
+</config>
