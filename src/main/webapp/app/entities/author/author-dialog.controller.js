@@ -26,8 +26,10 @@
         function save () {
             vm.isSaving = true;
             if (vm.author.id !== null) {
+                alert(vm.author.id);
                 Author.update(vm.author, onSaveSuccess, onSaveError);
             } else {
+                alert(vm.author.id);
                 Author.save(vm.author, onSaveSuccess, onSaveError);
             }
         }
