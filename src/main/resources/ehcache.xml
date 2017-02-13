@@ -56,13 +56,7 @@
 
     <cache alias="com.binana.amas.domain.Personn" uses-template="simple"/>
 
-    <cache alias="com.binana.amas.domain.Asso" uses-template="simple"/>
 
-    <cache alias="com.binana.amas.domain.Asso.have" uses-template="simple"/>
-
-    <cache alias="com.binana.amas.domain.Member" uses-template="simple"/>
-
-    <cache alias="com.binana.amas.domain.Asso.members" uses-template="simple"/>
 
     <!-- jhipster-needle-ehcache-add-entry -->
 </config>
