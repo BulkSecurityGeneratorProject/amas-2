@@ -18,7 +18,6 @@
     <include file="classpath:config/liquibase/changelog/20170118040527_added_entity_Book.xml" relativeToChangelogFile="false"/>
     <include file="classpath:config/liquibase/changelog/20170118102509_added_entity_Author.xml" relativeToChangelogFile="false"/>
     <include file="classpath:config/liquibase/changelog/20170120025752_added_entity_Personn.xml" relativeToChangelogFile="false"/>
-    <include file="classpath:config/liquibase/changelog/20170214020626_added_entity_Testmove.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
     <include file="classpath:config/liquibase/changelog/20170118035340_added_entity_constraints_Country.xml" relativeToChangelogFile="false"/>
     <include file="classpath:config/liquibase/changelog/20170118035341_added_entity_constraints_Location.xml" relativeToChangelogFile="false"/>

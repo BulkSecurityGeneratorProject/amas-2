@@ -58,7 +58,6 @@
 
 
 
-    <cache alias="com.binana.amas.domain.Testmove" uses-template="simple"/>
 
     <!-- jhipster-needle-ehcache-add-entry -->
 </config>

@@ -20,7 +20,6 @@
                 "book": "Book",
                 "author": "Author",
                 "personn": "Personn",
-                "testmove": "Testmove",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
