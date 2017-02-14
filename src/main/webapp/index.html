@@ -10,7 +10,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css content/css/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/angular-loading-bar/build/loading-bar.css">
+    <link rel="stylesheet" href="../../../bower_components/angular-loading-bar/build/loading-bar.css">
     <!-- endinject -->
     <link rel="stylesheet" href="content/css/vendor.css">
     <!-- endbuild -->
@@ -46,27 +46,27 @@
 
     <!-- build:js app/vendor.js -->
     <!-- bower:js -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/messageformat/messageformat.js"></script>
-    <script src="bower_components/json3/lib/json3.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-aria/angular-aria.js"></script>
-    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-    <script src="bower_components/angular-cache-buster/angular-cache-buster.js"></script>
-    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
-    <script src="bower_components/angular-dynamic-locale/src/tmhDynamicLocale.js"></script>
-    <script src="bower_components/ngstorage/ngStorage.js"></script>
-    <script src="bower_components/angular-loading-bar/build/loading-bar.js"></script>
-    <script src="bower_components/angular-resource/angular-resource.js"></script>
-    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-    <script src="bower_components/angular-translate/angular-translate.js"></script>
-    <script src="bower_components/angular-translate-interpolation-messageformat/angular-translate-interpolation-messageformat.js"></script>
-    <script src="bower_components/angular-translate-loader-partial/angular-translate-loader-partial.js"></script>
-    <script src="bower_components/angular-translate-storage-cookie/angular-translate-storage-cookie.js"></script>
-    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-    <script src="bower_components/bootstrap-ui-datetime-picker/dist/datetime-picker.js"></script>
-    <script src="bower_components/ng-file-upload/ng-file-upload.js"></script>
-    <script src="bower_components/ngInfiniteScroll/build/ng-infinite-scroll.js"></script>
+    <script src="../../../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../../../bower_components/messageformat/messageformat.js"></script>
+    <script src="../../../bower_components/json3/lib/json3.js"></script>
+    <script src="../../../bower_components/angular/angular.js"></script>
+    <script src="../../../bower_components/angular-aria/angular-aria.js"></script>
+    <script src="../../../bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="../../../bower_components/angular-cache-buster/angular-cache-buster.js"></script>
+    <script src="../../../bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="../../../bower_components/angular-dynamic-locale/src/tmhDynamicLocale.js"></script>
+    <script src="../../../bower_components/ngstorage/ngStorage.js"></script>
+    <script src="../../../bower_components/angular-loading-bar/build/loading-bar.js"></script>
+    <script src="../../../bower_components/angular-resource/angular-resource.js"></script>
+    <script src="../../../bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="../../../bower_components/angular-translate/angular-translate.js"></script>
+    <script src="../../../bower_components/angular-translate-interpolation-messageformat/angular-translate-interpolation-messageformat.js"></script>
+    <script src="../../../bower_components/angular-translate-loader-partial/angular-translate-loader-partial.js"></script>
+    <script src="../../../bower_components/angular-translate-storage-cookie/angular-translate-storage-cookie.js"></script>
+    <script src="../../../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="../../../bower_components/bootstrap-ui-datetime-picker/dist/datetime-picker.js"></script>
+    <script src="../../../bower_components/ng-file-upload/ng-file-upload.js"></script>
+    <script src="../../../bower_components/ngInfiniteScroll/build/ng-infinite-scroll.js"></script>
     <!-- endinject -->
     <!-- endbuild -->
 
@@ -93,12 +93,24 @@
     <script src="app/layouts/error/error.state.js"></script>
     <script src="app/home/home.state.js"></script>
     <script src="app/home/home.controller.js"></script>
+    <script src="app/entities/testmove/testmove-dialog.controller.js"></script>
+    <script src="app/entities/testmove/testmove-detail.controller.js"></script>
+    <script src="app/entities/testmove/testmove-delete-dialog.controller.js"></script>
+    <script src="app/entities/testmove/testmove.state.js"></script>
+    <script src="app/entities/testmove/testmove.service.js"></script>
+    <script src="app/entities/testmove/testmove.controller.js"></script>
     <script src="app/entities/task/taskmySuffix-dialog.controller.js"></script>
     <script src="app/entities/task/taskmySuffix-detail.controller.js"></script>
     <script src="app/entities/task/taskmySuffix-delete-dialog.controller.js"></script>
     <script src="app/entities/task/taskmySuffix.state.js"></script>
     <script src="app/entities/task/taskmySuffix.controller.js"></script>
     <script src="app/entities/task/task.service.js"></script>
+    <script src="app/entities/removetest/removetest-dialog.controller.js"></script>
+    <script src="app/entities/removetest/removetest-detail.controller.js"></script>
+    <script src="app/entities/removetest/removetest-delete-dialog.controller.js"></script>
+    <script src="app/entities/removetest/removetest.state.js"></script>
+    <script src="app/entities/removetest/removetest.service.js"></script>
+    <script src="app/entities/removetest/removetest.controller.js"></script>
     <script src="app/entities/region/regionmySuffix-dialog.controller.js"></script>
     <script src="app/entities/region/regionmySuffix-detail.controller.js"></script>
     <script src="app/entities/region/regionmySuffix-delete-dialog.controller.js"></script>
@@ -117,12 +129,6 @@
     <script src="app/entities/person/person.state.js"></script>
     <script src="app/entities/person/person.service.js"></script>
     <script src="app/entities/person/person.controller.js"></script>
-    <script src="app/entities/member/member-dialog.controller.js"></script>
-    <script src="app/entities/member/member-detail.controller.js"></script>
-    <script src="app/entities/member/member-delete-dialog.controller.js"></script>
-    <script src="app/entities/member/member.state.js"></script>
-    <script src="app/entities/member/member.service.js"></script>
-    <script src="app/entities/member/member.controller.js"></script>
     <script src="app/entities/location/locationmySuffix-dialog.controller.js"></script>
     <script src="app/entities/location/locationmySuffix-detail.controller.js"></script>
     <script src="app/entities/location/locationmySuffix-delete-dialog.controller.js"></script>
@@ -178,12 +184,6 @@
     <script src="app/entities/author/author.state.js"></script>
     <script src="app/entities/author/author.service.js"></script>
     <script src="app/entities/author/author.controller.js"></script>
-    <script src="app/entities/asso/asso-dialog.controller.js"></script>
-    <script src="app/entities/asso/asso-detail.controller.js"></script>
-    <script src="app/entities/asso/asso-delete-dialog.controller.js"></script>
-    <script src="app/entities/asso/asso.state.js"></script>
-    <script src="app/entities/asso/asso.service.js"></script>
-    <script src="app/entities/asso/asso.controller.js"></script>
     <script src="app/components/util/truncate-words.filter.js"></script>
     <script src="app/components/util/truncate-characters.filter.js"></script>
     <script src="app/components/util/sort-by.directive.js"></script>

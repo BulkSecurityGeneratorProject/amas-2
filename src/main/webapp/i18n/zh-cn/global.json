@@ -21,6 +21,7 @@
                 "author": "Author",
                 "personn": "Personn",
                 "asso": "Asso",
+                "testmove": "Testmove",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
