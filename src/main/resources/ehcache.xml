@@ -59,5 +59,11 @@
 
 
 
+    <cache alias="com.binana.amas.domain.Relation1" uses-template="simple"/>
+
+
+
+    <cache alias="com.binana.amas.domain.Pagenation" uses-template="simple"/>
+
     <!-- jhipster-needle-ehcache-add-entry -->
 </config>

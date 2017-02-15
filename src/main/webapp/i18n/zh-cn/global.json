@@ -20,6 +20,8 @@
                 "book": "Book",
                 "author": "Author",
                 "personn": "Personn",
+                "relation1": "Relation 1",
+                "pagenation": "Pagenation",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
