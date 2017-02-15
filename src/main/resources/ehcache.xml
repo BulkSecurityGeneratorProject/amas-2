@@ -65,5 +65,37 @@
 
     <cache alias="com.binana.amas.domain.Pagenation" uses-template="simple"/>
 
+    <cache alias="com.binana.amas.domain.Member" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Member.associations" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Member.roles" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Member.adepartments" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Association" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Association.activities" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Association.properties" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Association.members" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Association.adepartments" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Role" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Role.members" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Duty" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Adepartment" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Activity" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Property" uses-template="simple"/>
+
+    <cache alias="com.binana.amas.domain.Adepartment.members" uses-template="simple"/>
+
     <!-- jhipster-needle-ehcache-add-entry -->
 </config>

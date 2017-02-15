@@ -36,7 +36,6 @@
             if (vm.country.id !== null) {
                 Country.update(vm.country, onSaveSuccess, onSaveError);
             } else {
-                subSystemName();
                 Country.save(vm.country, onSaveSuccess, onSaveError);
             }
         }
